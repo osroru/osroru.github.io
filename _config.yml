@@ -1,4 +1,4 @@
-layout: sidebar
+layout: stacked
 style: dark
 
 plugins:
@@ -33,7 +33,7 @@ social_media:
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
-   instagram: memorysjourney 
+  #instagram: memorysjourney 
   # keybase: your_username
    linkedin: osroru
   # mastodon: your_username
@@ -46,11 +46,11 @@ social_media:
   # website: http://your_website_url
   # youtube: your_username
 
-topics:
-  - name: Data Analytics
+# topics:
+  #- name: Data Analytics
 
-  - name: Data Visualization
+  #- name: Data Visualization
 
-  - name: Python
-    web_url: https://github.com/topics/python
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
+  #- name: Python
+   # web_url: https://github.com/topics/python
+   # image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png

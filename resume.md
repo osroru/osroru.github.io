@@ -1,9 +1,6 @@
 ---
-layout: default
+layout: post
 ---
-
-Oscar Rodríguez
-============
 
 -------------------     ----------------------------
 1 MyAddress                        email@example.com
@@ -25,7 +22,7 @@ Education
 Experience
 ----------
 
-**Amazon - Shipping and Deliverey Support Manager:**
+**Amazon - Shipping and Delivery Support Manager:**
 
 Short text containing the type of work done, results obtained,
 lessons learned and other remarks. Can also include lists and

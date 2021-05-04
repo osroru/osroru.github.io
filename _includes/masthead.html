@@ -28,13 +28,11 @@
         </a>
       </div>
     {% endif %}
-    {% if user.email %}
+    {% if user.resume %}
       <div class="{{ metadata_styles }}">
         {% octicon checklist height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:resume %}
-        <a href="/_files/Oscar_Rodriguez_Resume.pdf" download="filename" Download Resume {% if site.style == 'dark' %}class="text-white"{% endif %}>
-          {{ user.email }}
-        </a>
-      </div>
+        <a href="/_files/Oscar_Rodriguez_Resume.pdf" download="Oscar_Rodriguez_Resume.pdf"> Download Resume</a> 
+            </div>
     {% endif %}
     {% if user.location %}
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">

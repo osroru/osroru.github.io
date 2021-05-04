@@ -31,7 +31,7 @@
     {% if user.resume %}
     <div class="{{ metadata_styles }}">
       {% octicon checklist height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:resume %}
-      <a href="/_files/Oscar_Rodriguez_Resume.pdf" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+      <a href="/_files/Oscar_Rodriguez_Resume.pdf" download {% if site.style == 'dark' %}class="text-white"{% endif %}>
         {{ user.resume }}
       </a>
     </div>

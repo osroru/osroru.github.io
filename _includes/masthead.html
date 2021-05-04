@@ -28,6 +28,14 @@
         </a>
       </div>
     {% endif %}
+    {% if user.email %}
+      <div class="{{ metadata_styles }}">
+        {% octicon checklist height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:resume %}
+        <a href="/_files/Oscar_Rodriguez_Resume.pdf" download="filename" Download Resume {% if site.style == 'dark' %}class="text-white"{% endif %}>
+          {{ user.email }}
+        </a>
+      </div>
+    {% endif %}
     {% if user.location %}
       <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
         {% octicon location height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
